@@ -6,7 +6,7 @@ date_default_timezone_set('America/Bogota');
 session_start();
 
 // Variables del sitio
-$titulo = "Proyecto de Transmisión de Datos";
+$titulo = "Proyecto de Transmisión de Datos: Análisis de la Población Mundial, Mortalidad Infantil y Esperanza de Vida";
 $mensaje = "Bienvenido al panel de visualización de datos transmitidos";
 ?>
 <!DOCTYPE html>
@@ -30,8 +30,16 @@ $mensaje = "Bienvenido al panel de visualización de datos transmitidos";
         </section>
 
         <section class="acciones">
-            <a href="pages/conexion_bd.php" class="boton">Ver conexión a la base de datos</a>
-            <a href="pages/visualizacion.php" class="boton">Ir a visualización de datos</a>
+            <a href="https://app.powerbi.com/groups/me/reports/3b3124c2-b798-42a3-9b2f-1eae1cd9d696/ReportSection8a60e6ad7e9c19755dfa?experience=power-bi" class="boton">Ir a visualización de datos</a>
+        </section>
+
+        <section class="conclusiones">
+            <h2>Conclusiones del Análisis</h2>
+            <ul>
+                <li>A menor esperanza de vida, mayor es la mortalidad infantil, siendo el continente africano el más afectado por esta tendencia.</li>
+                <li>Angola representa el país más afectado, ya que su esperanza de vida promedio es de 56 años y una mortalidad infantil de 191 por cada 1000 decesos.</li>
+                <li>El país menos afectado es Mónaco, perteneciente al continente europeo, con una esperanza de vida promedio de 89 años y una mortalidad infantil de 5 por cada 1000 decesos.</li>
+            </ul>
         </section>
     </main>
 
@@ -42,3 +50,4 @@ $mensaje = "Bienvenido al panel de visualización de datos transmitidos";
     </footer>
 </body>
 </html>
+
