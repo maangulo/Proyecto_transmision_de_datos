@@ -29,7 +29,7 @@ $mensaje = "Bienvenido al panel de visualización de datos transmitidos";
             <p>Fecha y hora actual: <strong><?php echo date('d/m/Y H:i:s'); ?></strong></p>
         </section>
 
-        <iframe title="Indicadores de Poblacion" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZmIwYjEyNGItNDExZS00NTA1LTg3MDgtOTFkNGJlOThjMDM3IiwidCI6IjRmMWUwNDRkLTNkNzAtNDk5MC1iMjZhLWI5NWYwYzY0MmUxYSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+        <iframe title="Indicadores de Poblacion" width="1024" height="1060" src="https://app.powerbi.com/view?r=eyJrIjoiZmIwYjEyNGItNDExZS00NTA1LTg3MDgtOTFkNGJlOThjMDM3IiwidCI6IjRmMWUwNDRkLTNkNzAtNDk5MC1iMjZhLWI5NWYwYzY0MmUxYSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
 
         <section class="conclusiones">
             <h2>Conclusiones del Análisis</h2>
